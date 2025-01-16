@@ -1,11 +1,11 @@
-#Euro-to-Currency Classifier
+# Euro-to-Currency Classifier
 
 This repository implements a comprehensive pipeline for analyzing and classifying Euro currency data. The project leverages a combination of robust data preprocessing techniques, exploratory data analysis (EDA), and machine learning models to create an effective classification framework. Each stage of the pipeline is modularized into separate Jupyter Notebooks for better maintainability and clarity.
 
-##Repository Structure
+## Repository Structure
 
 The project is divided into the following key components:
-'1. EuroCurrency_DataLoading.ipynb'
+1. EuroCurrency_DataLoading.ipynb
 
 Handles the ingestion of raw data from various sources. Key tasks include:
 
