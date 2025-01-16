@@ -39,8 +39,8 @@ Details the construction of the final classification model. Highlights include:
     Saving the model for reproducibility using serialization techniques (e.g., joblib or pickle).
     Outputting predictions and providing detailed insights.
 
-Methodology
-Data Pipeline
+## Methodology
+### Data Pipeline
 
 The workflow adheres to standard data science practices:
 
@@ -50,14 +50,14 @@ The workflow adheres to standard data science practices:
     Model Selection: Benchmarks multiple algorithms to identify the best-performing model.
     Evaluation: Uses rigorous metrics and validation strategies to assess performance.
 
-Key Features
+### Key Features
 
     Modular notebooks for easy navigation and reproducibility.
     Automated workflows for preprocessing and model evaluation.
     Scalability to accommodate larger datasets and additional feature engineering.
     Comprehensive evaluation to ensure robust performance.
 
-Requirements
+## Requirements
 
 The project is built in Python 3.8+ and requires the following libraries:
 
@@ -72,7 +72,7 @@ Install the dependencies using:
 
 pip install -r requirements.txt
 
-Running the Project
+## Running the Project
 
 To replicate the workflow, execute the notebooks in the following order:
 
@@ -82,8 +82,8 @@ To replicate the workflow, execute the notebooks in the following order:
     EuroCurrency_ModelBuilding.ipynb
 
 Each notebook is self-contained and provides inline documentation for clarity.
-Results
-Model Performance
+## Results
+### Model Performance
 
 The final model achieved:
 
@@ -92,23 +92,24 @@ The final model achieved:
     Recall: 90.8%
     F1-Score: 91.1%
 
-Insights
+### Insights
 
 The classifier successfully predicts currency trends based on engineered features. Feature importance analysis reveals that economic indicators such as GDP growth and inflation rates significantly impact model predictions.
-Limitations and Future Work
+## Limitations and Future Work
 
-    Limitations:
+Limitations:
+
         Limited coverage of additional currency pairs beyond Euro-focused datasets.
         Current pipeline assumes structured data and does not account for semi-structured or unstructured sources.
+Future Enhancements:
 
-    Future Enhancements:
         Expand feature engineering to incorporate macroeconomic indicators.
         Implement deep learning models for sequential data analysis.
         Integrate real-time data pipelines for live classification.
 
-Contributions
+## Contributions
 
 Contributions are encouraged. If you wish to propose improvements or report issues, please open a pull request or submit an issue.
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
